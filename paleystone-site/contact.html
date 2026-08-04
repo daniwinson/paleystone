@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — PALEY Stone &amp; Tile Forensics</title>
+<meta name="description" content="Contact James Paley for stone and tile forensic assessment, expert witness testimony, consulting, or training. Based in Orange County, CA — available nationwide.">
+<link rel="canonical" href="https://paleystone.com/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="nav-logo" href="index.html">Paley</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-menu" id="nav-menu">
+    <nav class="nav-links" aria-label="Primary">
+      <a href="about.html" class="nav-link">About</a>
+      <a href="case-studies/index.html" class="nav-link">Case Studies</a>
+      <a href="blog.html" class="nav-link">Blog</a>
+    </nav>
+    <div class="nav-right">
+      <a href="credentials.html" class="nav-link">Credentials</a>
+      <a href="contact.html" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <p class="page-hero-eyebrow">Get in Touch</p>
+    <h1 class="page-hero-h1">Contact</h1>
+    <p class="page-hero-sub">Describe your project or situation and we'll be in touch.</p>
+  </section>
+
+  <section class="sec sec-linen two-col">
+    <div>
+      <p class="sec-label" style="margin-bottom:28px;">Send a Message</p>
+      <!-- SETUP REQUIRED: this form posts to Formspree (free tier works fine for a site
+           like this). Create a form at https://formspree.io, then replace YOUR_FORM_ID
+           below with the ID it gives you. Until then the form won't send. -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-field">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" id="name" name="name" type="text" placeholder="Your full name" required autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" id="email" name="email" type="email" placeholder="your@email.com" required autocomplete="email">
+        </div>
+        <fieldset class="form-field" style="border:none;">
+          <legend class="form-label">Project Type</legend>
+          <div class="chip-group">
+            <input type="radio" id="pt-assessment" name="project_type" value="Assessment" checked>
+            <label for="pt-assessment">Assessment</label>
+            <input type="radio" id="pt-witness" name="project_type" value="Expert Witness">
+            <label for="pt-witness">Expert Witness</label>
+            <input type="radio" id="pt-consulting" name="project_type" value="Consulting">
+            <label for="pt-consulting">Consulting</label>
+            <input type="radio" id="pt-training" name="project_type" value="Training">
+            <label for="pt-training">Training</label>
+          </div>
+        </fieldset>
+        <div class="form-field">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Describe your project, location, and what you're seeing…" required></textarea>
+        </div>
+        <button type="submit" class="btn-dark" style="margin-top:4px;">Send Message →</button>
+      </form>
+    </div>
+    <div>
+      <p class="sec-label" style="margin-bottom:28px;">Our Team</p>
+      <div style="display:flex;flex-direction:column;gap:32px;">
+        <div class="person-card">
+          <img class="person-photo" src="img/james-paley.jpg" alt="James Paley">
+          <div>
+            <p class="person-name">James Paley</p>
+            <p class="person-role">Principal Consultant</p>
+            <a class="person-link" href="mailto:james@paleystone.com">james@paleystone.com</a>
+          </div>
+        </div>
+        <div class="person-card">
+          <!-- TODO: replace placeholder with Freddy's headshot when available -->
+          <img class="person-photo" src="img/placeholder-headshot.svg" alt="">
+          <div>
+            <p class="person-name">Alfredo &ldquo;Freddy&rdquo; Montes</p>
+            <p class="person-role">Stone &amp; Tile Flooring Inspector</p>
+            <a class="person-link" href="mailto:alfredo@paleystone.com">alfredo@paleystone.com</a>
+          </div>
+        </div>
+        <div style="padding-top:28px;border-top:1px solid var(--border);">
+          <p class="contact-detail-label">Based in</p>
+          <p class="contact-detail-value">Orange County, CA<br><span class="contact-detail-note">Available nationwide</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer-logo">Paley Stone &amp; Tile Forensics</p>
+  <p class="footer-copy">© <span data-year>2026</span> All Rights Reserved</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
