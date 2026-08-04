@@ -35,10 +35,9 @@ no build step, no framework. Edit any page directly and re-upload.
    confirm/expand it). The other five have a "coming soon" placeholder; search for
    `TODO` in each file. Also confirm which residential project the Newport Beach page
    should cover.
-5. **Client permission** — projects are named as they appear in James's public CV
-   (Shady Canyon CC, Sierra Nevada Brewing, Merritt Mansion). The Fountain Valley page
-   is kept anonymous ("Corporate Headquarters") even though the CV names Hyundai —
-   confirm James is comfortable naming clients on the website itself.
+5. **Client naming** — projects are named as they appear in James's public CV
+   (Shady Canyon CC, Sierra Nevada Brewing, Merritt Mansion). James approved naming
+   Hyundai National Headquarters (July 2026).
 6. **Favicon** — add a `favicon.ico` (or PNG + `<link rel="icon">` tags) to the root.
 
 Resolved: emails are real (james@ / alfredo@ paleystone.com, from the CVs); phone was
