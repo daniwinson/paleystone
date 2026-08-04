@@ -27,17 +27,16 @@ no build step, no framework. Edit any page directly and re-upload.
 2. **Freddy's headshot** — `img/placeholder-headshot.svg` is used on the contact and
    credentials pages until his photo arrives; swap in a real photo (square crop works
    best) and update the two `<img>` tags.
-3. **Photos** — scenery images are still Unsplash placeholders hot-linked from
-   unsplash.com. Replace with real project photography: put files in `img/` and update
-   the `<img src>` tags. Search the pages for `images.unsplash.com` to find them all.
-4. **Case study write-ups** — all six case studies now correspond to real projects
-   from James's CV, but only Shady Canyon has body copy (kept general — have James
-   confirm/expand it). The other five have a "coming soon" placeholder; search for
-   `TODO` in each file. Also confirm which residential project the Newport Beach page
-   should cover.
-5. **Client naming** — projects are named as they appear in James's public CV
-   (Shady Canyon CC, Sierra Nevada Brewing, Merritt Mansion). James approved naming
-   Hyundai National Headquarters (July 2026).
+3. **Photos** — case studies now use real project photography scraped from the old
+   paleystone.com (in `img/case-studies/`). The homepage and About page heroes are
+   still Unsplash placeholders — search the pages for `images.unsplash.com`.
+4. **Case studies** — all six pages (Shady Canyon, Hyundai HQ, Pfizer, North American
+   College, First Bank, Historic Court House) use the photos and write-ups published
+   on the old paleystone.com site. The Limestone Testing study was removed at James's
+   request (July 2026). One old-site project remains unused: Granite Testing, Palos
+   Verdes — its photos/copy can be added the same way if wanted.
+5. **Client naming** — James approved naming Hyundai National Headquarters
+   (July 2026); other projects are named as published on the old site.
 6. **Favicon** — add a `favicon.ico` (or PNG + `<link rel="icon">` tags) to the root.
 
 Resolved: emails are real (james@ / alfredo@ paleystone.com, from the CVs); phone was
