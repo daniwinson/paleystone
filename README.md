@@ -12,7 +12,7 @@ no build step, no framework. Edit any page directly and re-upload.
 | `services.html` | Services (5 services) |
 | `case-studies/index.html` | Case studies grid with category filter |
 | `case-studies/*.html` | Individual case study pages (6) |
-| `contact.html` | Contact form + details |
+| `contact.html` | Contact details — phone, email, address (no form) |
 | `credentials.html` | Credentials list |
 | `blog.html` | Blog index (empty state until articles exist) |
 | `404.html` | Not-found page |
@@ -21,9 +21,10 @@ no build step, no framework. Edit any page directly and re-upload.
 
 ## Before launch — checklist
 
-1. **Contact form** — the form in `contact.html` posts to Formspree. Sign up free at
-   formspree.io, create a form, and replace `YOUR_FORM_ID` in `contact.html` with the
-   real form ID. (Web3Forms or Basin work the same way if you prefer.)
+1. **Contact details** — the contact form was removed (Aug 2026). `contact.html` now
+   lists phone (714-390-5473, `tel:` — taps to call), email (info@paleystone.com,
+   `mailto:`), and the Santa Ana office address (opens in Google Maps). If any of
+   these change, update BOTH the visible text and the `href`.
 2. **Freddy's headshot** — `img/placeholder-headshot.svg` is used on the contact and
    credentials pages until his photo arrives; swap in a real photo (square crop works
    best) and update the two `<img>` tags.
@@ -39,8 +40,8 @@ no build step, no framework. Edit any page directly and re-upload.
    (July 2026); other projects are named as published on the old site.
 6. **Favicon** — add a `favicon.ico` (or PNG + `<link rel="icon">` tags) to the root.
 
-Resolved: emails are real (james@ / alfredo@ paleystone.com, from the CVs); phone was
-removed at Danielle's request; credentials on about.html + credentials.html were
+Resolved: emails are real (james@ / alfredo@ / info@ paleystone.com); credentials on
+about.html + credentials.html were
 rewritten to match James's CV (updated 10/24/2025); CVs are downloadable from the
 credentials page (`cv/` folder).
 
